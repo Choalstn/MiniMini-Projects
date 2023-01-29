@@ -1,0 +1,118 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+    width: 45vw;
+    height: 56vh;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#container :first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.img {
+    flex: 1 1 450px;
+    background-image: url("./images/image-product-desktop.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#contents {
+    overflow: hidden;
+    flex: 1 1 450px;
+    padding: 40px;
+}
+
+.perfume {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(123, 123, 131);
+    letter-spacing: 7px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    line-height: 38px;
+    padding-right: 30px;
+}
+
+.explain {
+    margin-top: 25px;
+    line-height: 23px;
+
+    /* 어간 조정 */
+    word-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(123, 123, 131);
+    padding-right: 10px;
+}
+
+.price {
+    display: flex;
+    margin-top: 20px;
+}
+
+.price :nth-child(1) {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+.price :nth-child(2) {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: line-through;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(123, 123, 131);
+}
+
+.addBtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    height: 48px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.addBtn img {
+    padding-right: 8px;
+}
+
+
+
+
